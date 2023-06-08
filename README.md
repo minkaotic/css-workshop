@@ -28,3 +28,4 @@ The [official React guidelines](https://react.dev/learn/thinking-in-react) also 
 1. [The CSS box model](/lessons/3-css-box-model.md)
 1. [Different layout techniques](/lessons/4-layout-techniques.md)
 1. [Flexbox basics](/lessons/5-flexbox-basics.md)
+1. [Fun with Sass](/lessons/6-fun-with-sass.md)

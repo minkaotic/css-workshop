@@ -22,7 +22,7 @@
 
 -> demonstrate these differences!
 
-:sparkles: Display mode can be leveraged as an alternative to using floats: "[The Secret To Designing Website Layouts Without CSS Floats]( https://www.webdesignerdepot.com/2014/07/the-secret-to-designing-website-layouts-without-css-floats/)" :sparkles:
+✨ Display mode can be leveraged as an alternative to using floats: "[The Secret To Designing Website Layouts Without CSS Floats]( https://www.webdesignerdepot.com/2014/07/the-secret-to-designing-website-layouts-without-css-floats/)" ✨
 
 
 -> Common techniques for aligning each of these
