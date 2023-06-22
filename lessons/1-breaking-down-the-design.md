@@ -8,28 +8,28 @@ This breakdown will define the overall structure of our markup.
 
 
 ## Task!
-💪 Create the basic markdown of the GitHub User Search app! (Don't worry about adding class names yet!)
+💪 Create the basic markdown of the GitHub User Search app!
 
-[>> Check solution](/lessons/1-breaking-down-the-design__solution.md)
+**[>> Check solution](/lessons/1-breaking-down-the-design__solution.md)**
 
 
 ## BEM
 The ["Block Element Modifier"](https://getbem.com/) approach is a naming convention for classes, that makes it easy to create modular, well organised stylesheets. It should reflect how our design breaks down into smaller pieces, and will be useful when we start adding styles in the next step!
-
-Its benefits are particularly evident when using a CSS preprocessor (like Sass).
 
 The convention is to structure class names like this: `block__element--modifier`, e.g.:
 
 ```html
 <div class="user-card">
     <img class="user-card__avatar" src="..." alt="avatar" />
-    <div class="user-card__stats">
+    <div class="user-card__details">
         ...
         <span class="user-card__stats"></span>
         <span class="user-card__stats--highlighted"></span>
     </div>
 </div>
 ```
+
+Its benefits are particularly evident when using a CSS preprocessor (like Sass):
 
 ```scss
 .user-card {
@@ -59,7 +59,7 @@ The convention is to structure class names like this: `block__element--modifier`
 
 ### Modifier
 - A flag on a block or element. Use them to control variations of appearance or behavior.
-- Examples: `disabled`, `highlighted`, `checked`, `fixed`, `size big`, `color yellow`
+- Examples: `--disabled`, `--highlighted`, `--checked`, `--big`, `--invalid`
 
 
-[>> On to the next step!](/lessons/2-display-modes.md)
+**[>> On to the next step!](/lessons/2-display-modes.md)**

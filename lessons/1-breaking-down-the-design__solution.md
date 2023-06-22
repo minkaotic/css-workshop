@@ -50,4 +50,4 @@ Our basic markup should look something like this:
 </>
 ```
 
-[>> Back to lesson](/lessons/1-breaking-down-the-design.md)
+**[>> Back to lesson](/lessons/1-breaking-down-the-design.md)**
