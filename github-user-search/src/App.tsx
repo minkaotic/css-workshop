@@ -3,10 +3,7 @@ import './App.scss'
 export function App() {
   return (
     <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        
-      </div>
+      <h1>Welcome to this workshop!</h1>
     </>
   )
 }

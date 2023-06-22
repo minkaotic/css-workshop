@@ -1,13 +1,20 @@
 # Breaking down the design
 
-Based on which groups of items need to be layed out *together*, break down the design into its nested elements:
+Based on which groups of items need to be layed out *together*, break down the design into its nested elements. Also consider how the design should change on smaller screens when making these decisions!
 
 ![image](https://github.com/minkaotic/css-workshop/assets/6144523/da18dfcb-4fe9-4151-be54-5389fd201f34)
 
-This will define the overall structure of our markup.
+This breakdown will define the overall structure of our markup.
+
+
+## Task!
+💪 Create the basic markdown of the GitHub User Search app! (Don't worry about adding class names yet!)
+
+[>> Check solution](/lessons/1-breaking-down-the-design__solution.md)
+
 
 ## BEM
-The ["Block Element Modifier"](https://getbem.com/) approach is a naming convention for classes, that makes it easy to create modular, well organised stylesheets.
+The ["Block Element Modifier"](https://getbem.com/) approach is a naming convention for classes, that makes it easy to create modular, well organised stylesheets. It should reflect how our design breaks down into smaller pieces, and will be useful when we start adding styles in the next step!
 
 Its benefits are particularly evident when using a CSS preprocessor (like Sass).
 
@@ -54,10 +61,5 @@ The convention is to structure class names like this: `block__element--modifier`
 - A flag on a block or element. Use them to control variations of appearance or behavior.
 - Examples: `disabled`, `highlighted`, `checked`, `fixed`, `size big`, `color yellow`
 
-
-## Task!
-💪 Create the basic markdown of the GitHub User Search app!
-
-[>> Check solution](/lessons/1-breaking-down-the-design__solution.md)
 
 [>> On to the next step!](/lessons/2-display-modes.md)
