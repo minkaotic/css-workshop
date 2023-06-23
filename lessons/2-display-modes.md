@@ -30,20 +30,22 @@ All HTML elements have a default, for most elements this is `block` or `inline`:
 
 **Centering items**
 - To horizontally center a block element, use `margin: auto;` combined with setting a `width`!
-
+- **REVISIT THIS AND UNDERSTAND IT!!!** To center text inside an element, use `text-align: center;` **WHY DOES THIS WORK ON DIVS TOO? TRY WITH A NON-TEXTY DIV...**
 
 ## Task!
 💪 Write the CSS for the top level layout structure
 
 
-![image](/assets/wrapper_illustration.png))
+![image](/assets/wrapper_illustration.png)
 
-1. Lets give the two 
+- Lets give the two relevant divs a different background colour
 
 -> How to use a layout wrapper
 
+- center + width
 - margins and padding
 
+- get DEVFINDER and LIGHT onto same row by changing the display mode (more examples of this?)
 
 **[>> Check solution](/lessons/1-breaking-down-the-design__solution.md)**
 
