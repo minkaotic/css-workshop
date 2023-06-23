@@ -1,8 +1,8 @@
-# Breaking down the design
+# Breaking Down The Design
 
 Based on which groups of items need to be layed out *together*, break down the design into its nested elements. Also consider how the design should change on smaller screens when making these decisions!
 
-![image](https://github.com/minkaotic/css-workshop/assets/6144523/da18dfcb-4fe9-4151-be54-5389fd201f34)
+![image](/assets/breaking_down_the_design.png)
 
 This breakdown will define the overall structure of our markup.
 

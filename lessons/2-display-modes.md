@@ -1,10 +1,18 @@
 # Understanding Display Modes
 
-...and how they affect positioning of elements
+The [`display`](https://developer.mozilla.org/en-US/docs/Web/CSS/display) mode of a HTML element significantly affects *how we go about* positioning it!
 
+The most common values are:
+```css
+display: block;
+display: inline;
+display: inline-block;
+display: none;
+display: flex;
+display: grid;
+```
 
-- TODO: explain `display` property
-- All HTML elements have a default, for most elements this is `block` or `inline`:
+All HTML elements have a default, for most elements this is `block` or `inline`:
 
 | Block            | Inline     | Inline-block  |
 |------------------|------------|---------------|
@@ -14,16 +22,29 @@
 | `ol`/`ul`/`li`   |            |               |
 
 - `block` elements span the entire width of their container, forcing all subsequent elements to the next line
-- `inline` elements  only span the width of their contents, allowing any inline level element to flow up next to it on the same line.
-  - ***NB:** width and height properties, or top/bottom margin or padding settings won't be applied to inline elements*; only left/right margins and padding will work.
-- `inline-block`'s main two differences vs. `inline` is that it allows to set a width and height on the element, and that the top and bottom margins/paddings are respected.
-- need different ways to centre it
-- can simply change the display mode if desired! (Better than using a less semantically appropriate element to achieve the desired result) 
+- `inline` elements  only span the width of their contents, allowing any inline level element to flow up next to it on the same line
+  - 🔥 ***NB:** width and height properties, or top/bottom margin or padding settings won't be applied to inline elements*; only left/right margins and padding will work.
+- `inline-block` allows elements to flow next to it, but allows to set width/height and top/bottom margins and padding are respected.
 
--> demonstrate these differences!
+> 💡 Changing the default display mode of an element with CSS is better than using a less semantically appropriate element to achieve a visual result!
 
-✨ Display mode can be leveraged as an alternative to using floats: "[The Secret To Designing Website Layouts Without CSS Floats]( https://www.webdesignerdepot.com/2014/07/the-secret-to-designing-website-layouts-without-css-floats/)" ✨
+**Centering items**
+- To horizontally center a block element, use `margin: auto;` combined with setting a `width`!
 
 
--> Common techniques for aligning each of these
+## Task!
+💪 Write the CSS for the top level layout structure
+
+
+![image](/assets/wrapper_illustration.png))
+
+1. Lets give the two 
+
 -> How to use a layout wrapper
+
+- margins and padding
+
+
+**[>> Check solution](/lessons/1-breaking-down-the-design__solution.md)**
+
+**[>> On to the next step!](/lessons//3-css-box-model.md)**

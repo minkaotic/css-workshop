@@ -1,4 +1,4 @@
-# Breaking down the design - Solution
+# Breaking Down The Design - Solution
 
 Our basic markup should look something like this:
 
