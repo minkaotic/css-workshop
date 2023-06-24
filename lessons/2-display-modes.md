@@ -35,16 +35,16 @@ display: grid;  // not part of this workshop
 ## Task!
 💪 **Write the CSS for the top level layout structure**
 
-- Take a look at the design: we can see that all 3 of our high level `<divs>` are supposed to have the same width and be centred on the page:
+1. Take a look at the design: we can see that all 3 of our high level `<div>`s are supposed to have the same width and be centred on the page:
   ![image](/assets/wrapper_illustration.png)
 
-- Rather than repeating the rules for each `<div>`, this is usually achieved by applying them to a wrapper element - for this exercise, we can use our app's `#root` div for this purpose. Use it to centre the content & give it a width!
+1. Rather than repeating the rules for each `<div>`, apply them to a wrapper element - in this exercise, we can use our app's `#root` div for this purpose. Use it to centre the content & give it a width!
 
-- Lets give the `search-bar` and `search-result-card` a different background colour, and set a border radius
+1. Lets give the `search-bar` and `search-result-card` a different background colour: `#1F2A48`.
 
-- Set a sensible top and bottom margin for our `#root` wrapper
+1. Get the 'devfinder' headline and 'LIGHT' mode switch to display alongside each other by changing the display mode
 
-- get the 'devfinder' headline and 'LIGHT' mode switch to display alongside each other by changing the display mode
+1. Set a sensible top and bottom margin for our `#root` wrapper
 
 **[>> Check solution](/lessons/1-breaking-down-the-design__solution.md)**
 
