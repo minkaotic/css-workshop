@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <div className="header">
-        <h1>devfinder</h1>
+        <h1 className="header__title">devfinder</h1>
         <span>LIGHT</span>
       </div>
       <div className="search-bar">

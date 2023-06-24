@@ -7,7 +7,7 @@ Looking at the task to create a 'GitHub user search' UI, we'll explore a number 
 ## Setup
 1. Clone this repo & `cd github-user-search`
 1. Run `npm install`
-1. Run `npm run dev` to run the app locally
+1. Run `npm run start` to run the app locally
 
 ## Start from a static UI
 Approaching things in the following order allows us to gather feedback from product early - a static UI demonstrates what the app _would/could_ do - and helps us iron out any questions or unclear requirements before getting too far down the line of writing the implementation.
