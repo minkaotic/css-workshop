@@ -17,7 +17,7 @@ Our basic markup should look something like this:
     <div className="search-result-card">
         <img className="user-image" src="/avatar.png" />
         <div className="user-details">
-            <div className="user-details__headline">
+            <div className="user-details__header">
                 <div className="user-details__name">
                     <span>The Octocat</span>
                     <span>@octocat</span>
