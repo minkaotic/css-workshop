@@ -40,11 +40,13 @@ display: grid;  // not part of this workshop
 
 1. Rather than repeating the rules for each `<div>`, apply them to a wrapper element - in this exercise, we can use our app's `#root` div for this purpose. Use it to centre the content & give it a width!
 
-1. Lets give the `search-bar` and `search-result-card` a different background colour: `#1F2A48`.
+1. Lets give the `search-bar` and `search-result-card` a different background colour: `#1F2A48`, and top and bottom margins.
 
-1. Get the 'devfinder' headline and 'LIGHT' mode switch to display alongside each other by changing the display mode
+1. Work out the appropriate display mode to change in order to:
+    - Get the 'devfinder' headline and 'LIGHT'-mode switch to display side by side
+    - Get the `user-image` and `user-details` to display side by side
 
-1. Set a sensible top and bottom margin for our `#root` wrapper
+1. Set a sensible top and bottom margin for our `#root` wrapper.
 
 **[>> Check solution](/lessons/1-breaking-down-the-design__solution.md)**
 

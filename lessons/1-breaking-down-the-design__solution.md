@@ -15,7 +15,7 @@ Our basic markup should look something like this:
         </button>
     </div>
     <div className="search-result-card">
-        <img className="search-result-card__logo" src="/avatar.png" />
+        <img className="user-image" src="/avatar.png" />
         <div className="user-details">
             <div className="user-details__headline">
                 <div className="user-details__name">

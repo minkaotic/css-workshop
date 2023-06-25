@@ -18,6 +18,11 @@ Your CSS should look something like this:
 .search-bar,
 .search-result-card {
   background-color: #1F2A48;
+  margin: 20px 0;
+}
+
+.user-details {
+  display: inline-block;
 }
 ```
 
