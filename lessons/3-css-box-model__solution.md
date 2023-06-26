@@ -2,35 +2,32 @@
 
 Your CSS should look something like this:
 
-```css
-// changed
+```scss
+$card-blue: #1F2A48;
+$card-border-radius: 10px;
+
 #root {
   width: 80vw;
   max-width: 1000px;
   margin: 40px auto;
 }
 
-// as before
 .header__title {
   display: inline;
   margin-right: 600px;
 }
 
-// changed
-.search-bar,
-.search-result-card {
-  background-color: #1F2A48;
-  margin: 20px 0;
-  border-radius: 10px;
-}
-
-// new
 .search-bar {
+  background-color: $card-blue;
+  border-radius: $card-border-radius;
+  margin: 20px 0;
   padding: 5px;
 }
 
-// new
 .search-result-card {
+  background-color: $card-blue;
+  border-radius: $card-border-radius;
+  margin-bottom: 40px;
   padding: 40px;
 
   .user-image {
@@ -38,7 +35,6 @@ Your CSS should look something like this:
     margin-right: 40px;
   }
 
-  // as before but moved
   .user-details {
     display: inline-block;
   }

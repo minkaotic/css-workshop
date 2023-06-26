@@ -18,7 +18,22 @@ Values provided in `px` are absolute, but there are also a number of **useful re
 - `vh`/`vw` - relative to viewport (=screen); common use case: filling the page even when there is little content by setting `min-height: 100vh;`
 
 ### The `calc()` function
-- TO DO!
+- does the maths for you! Different types of units can be mixed (%, vh, px, em etc.)
+- e.g. `calc(100% - 180px)` to make an element flexibly take up all the space next to a fixed-width element
+
+Can be useful in conjunction with SASS variables to express intent:
+
+```scss
+$button-width: 200px;
+
+.button {
+    width: $button-width;
+}
+
+.content {
+    width: calc(100% - $button-width);
+}
+```
 
 ### Why margins collapse
 The element size calculated by the browser only takes into account content, padding and border, *but not margin.* If there is no content, padding, or border area to interrupt two vertically touching margins, [the margins collapse to the largest of the two margin values](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing).
@@ -28,6 +43,7 @@ The element size calculated by the browser only takes into account content, padd
 
 ## Task!
 💪 **Finetune the layout of the high-level elements**
+> 💡 Use SASS variables to express intent and avoid repeating selectors uneccesarily.
 
 1. Let's give the `search-bar` and `search-result-card` sensible padding and a border radius.
 

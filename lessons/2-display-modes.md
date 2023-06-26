@@ -38,7 +38,7 @@ display: grid;  // not part of this workshop
 1. Take a look at the design: we can see that all 3 of our high level `<div>`s are supposed to have the same width and be centred on the page:
   ![image](/assets/wrapper_illustration.png)
 
-1. Rather than repeating the rules for each `<div>`, apply them to a wrapper element - in this exercise, we can use our app's `#root` div for this purpose. Use it to centre the content & give it a width!
+1. Rather than repeating the rules for each `<div>`, apply them to a wrapper element (using a layout wrapper like this is a common technique in styling a page!) - in this exercise, we can use our app's `#root` div for this purpose. Use it to centre the content & give it a width!
 
 1. Lets give the `search-bar` and `search-result-card` a different background colour: `#1F2A48`, and top and bottom margins.
 
