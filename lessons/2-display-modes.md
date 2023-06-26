@@ -48,6 +48,6 @@ display: grid;  // not part of this workshop
 
 1. Set a sensible top and bottom margin for our `#root` wrapper.
 
-**[>> Check solution](/lessons/1-breaking-down-the-design__solution.md)**
+**[>> Check solution](/lessons/2-display-modes_solution.md)**
 
-**[>> On to the next step!](/lessons//3-css-box-model.md)**
+**[>> On to the next step!](/lessons/3-css-box-model.md)**
