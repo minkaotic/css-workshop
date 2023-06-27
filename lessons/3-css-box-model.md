@@ -7,15 +7,19 @@
 
 > 🔥 **NOTE: `width` generally applies only to the *content* of the box, i.e. not including its padding and border!** (To flip this behaviour around, use `box-sizing: border-box;` - this dynamically subtracts the borders and paddings from the width/height properties we set, esp. useful when defining dimensions relative to parent containers etc.)
 
-### Max- and min-width/height
-- TO DO!
-
 ### Common units for dimensions
 Values provided in `px` are absolute, but there are also a number of **useful relative units**, which are key for responsive design:
 - `em` - relative to parent's pixel size; and default to 16px at root
 - `rem` - relative to root elemen's pixel size, thus avoiding compounding issues
-- `%` - always relative to parent container; setting border radius to 50% will make a rectangual element completely round / elliptical
+- `%` - always relative to parent container
 - `vh`/`vw` - relative to viewport (=screen); common use case: filling the page even when there is little content by setting `min-height: 100vh;`
+
+> 💡 **TIP:** Using `%` for border radius allows creating elliptical corners, and can be used to make an element appear completely rounded.
+
+### Max- and min-width/height
+- `max-width` is useful for preventing elements from becoming too large to look good on big screens
+- a common approach for responsive layouts is to use a relative *width* in combination with an absolute *max-width*, e.g.: `width: 100%; max-width: 600px;`
+- logically, `max-width` takes precedence over `width`; and `min-width` takes precedence over both (same for equivalent `height` values)
 
 ### The `calc()` function
 - does the maths for you! Different types of units can be mixed (%, vh, px, em etc.)
