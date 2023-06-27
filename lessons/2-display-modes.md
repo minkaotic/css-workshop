@@ -43,7 +43,7 @@ display: grid;  // not part of this workshop
 1. Lets give the `search-bar` and `search-result-card` a different background colour: `#1F2A48`, and top and bottom margins.
 
 1. Work out the appropriate display mode to change in order to:
-    - Get the 'devfinder' headline and 'LIGHT'-mode switch to display side by side
+    - Get the 'devfinder' headline and 'LIGHT'-mode switch to display side by side (bonus points for moving the 'LIGHT'-mode switch to the right as well) 
     - Get the `user-image` and `user-details` to display side by side
 
 1. Set a sensible top and bottom margin for our `#root` wrapper.
