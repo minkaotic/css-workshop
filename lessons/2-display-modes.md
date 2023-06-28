@@ -29,7 +29,7 @@ display: grid;  // not part of this workshop
 > 💡 **Changing the default display mode of an element with CSS is better than using a less semantically appropriate element to achieve a visual result!**
 
 ### Centring items
-- To centre inline-elements inside an element, use `text-align: center;`
+- To centre inline elements inside an element, use `text-align: center;`
 - To horizontally centre a block element, use `margin: auto;` combined with setting a `width`!
 
 ## Task!

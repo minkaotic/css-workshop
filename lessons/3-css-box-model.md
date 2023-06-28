@@ -5,7 +5,12 @@
 - `padding` = gap from border of the container to the *inner contents*
 - `margin` = gap from border of the container to the other elements *around it*
 
-> 🔥 **NOTE: `width` generally applies only to the *content* of the box, i.e. not including its padding and border!** (To flip this behaviour around, use `box-sizing: border-box;` - this dynamically subtracts the borders and paddings from the width/height properties we set, esp. useful when defining dimensions relative to parent containers etc.)
+### Box sizing
+🔥 **Generally, `width` applies only to the *content* of the box, i.e. not including its padding and border!**
+
+To flip this behaviour around, use `box-sizing: border-box;`!
+
+This dynamically subtracts the borders and paddings from the width/height properties we set, esp. useful when defining dimensions relative to parent containers etc.
 
 ### Common units for dimensions
 Values provided in `px` are absolute, but there are also a number of **useful relative units**, which are key for responsive design:
