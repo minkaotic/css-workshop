@@ -21,7 +21,7 @@ function App() {
               <span>The Octocat</span>
               <span>@octocat</span>
             </div>
-            <p className="user-details__join-date">Joined 25 Jan 2011</p>
+            <span className="user-details__join-date">Joined 25 Jan 2011</span>
           </div>
           <p className="user-details__bio">This profile has no bio</p>
           <div className="user-details__stats">
