@@ -3,6 +3,15 @@
 Your CSS should look something like this:
 
 ```css
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #141C2F;
+  color: whitesmoke;
+}
+
 #root {
   width: 800px;
   margin: 40px auto;

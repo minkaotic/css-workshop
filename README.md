@@ -5,7 +5,7 @@ Looking at the task to create a 'GitHub user search' UI, we'll explore a number 
 👉 [View the task on Frontend Mentor](https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6)
 
 ## Setup
-1. Clone this repo & `cd github-user-search`
+1. Clone this repo & `cd css-workshop/github-user-search`
 1. Run `npm install`
 1. Run `npm run start` to run the app locally
 
