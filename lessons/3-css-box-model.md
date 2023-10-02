@@ -60,6 +60,7 @@ The element size calculated by the browser only takes into account content, padd
 
 1. Set the `#root` width as a `%` or `vw` value so its somewhat responsive. Set a `max-width` that it shouldn't cross beyond on large screens.
 
+1. Give the `.user-image` an absolute width of 100px, and make `.user-details` take up the remaining space in the container. (Hint: you may want to create a variable for the width value, and use the calc() function too.)
 
 **[>> Check solution](/lessons/3-css-box-model__solution.md)**
 
