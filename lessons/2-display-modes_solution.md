@@ -37,7 +37,7 @@ body {
 
 And your page should now look as below:
 
-![image](/assets/display_modes_solution.png)
+![image](/assets/display_modes_preview.png)
 
 **[>> Back to lesson](/lessons/2-display-modes.md)**
 

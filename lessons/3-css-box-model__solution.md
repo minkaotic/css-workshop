@@ -53,7 +53,7 @@ body {
 
 And your page should now look like this:
 
-![image](/assets/box_model_solution.png)
+![image](/assets/box_model_preview.png)
 
 
 **[>> Back to lesson](/lessons/3-css-box-model.md)**
