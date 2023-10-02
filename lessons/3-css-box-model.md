@@ -14,20 +14,22 @@ This dynamically subtracts the borders and paddings from the width/height proper
 
 ### Common units for dimensions
 Values provided in `px` are absolute, but there are also a number of **useful relative units**, which are key for responsive design:
-- `em` - relative to parent's pixel size; and default to 16px at root
-- `rem` - relative to root elemen's pixel size, thus avoiding compounding issues
+- `rem` - relative to root element's pixel size, default 1rem = 16px
 - `%` - always relative to parent container
-- `vh`/`vw` - relative to viewport (=screen); common use case: filling the page even when there is little content by setting `min-height: 100vh;`
+- `vh`/`vw` - relative to viewport (=screen)
+    - common use case: filling the page even when there is little content by setting `min-height: 100vh;`
 
 > 💡 **TIP:** Using `%` for border radius allows creating elliptical corners, and can be used to make an element appear completely rounded.
 
 ### Max- and min-width/height
 - `max-width` is useful for preventing elements from becoming too large to look good on big screens
 - a common approach for responsive layouts is to use a relative *width* in combination with an absolute *max-width*, e.g.: `width: 100%; max-width: 600px;`
-- logically, `max-width` takes precedence over `width`; and `min-width` takes precedence over both (same for equivalent `height` values)
+- order of precendence if the values conflict with each other:
+    - `min-height` > `max-height` > `height`
+    - `min-height` > `max-width` > `width`
 
 ### The `calc()` function
-- does the maths for you! Different types of units can be mixed (%, vh, px, em etc.)
+- does the maths for you! Different types of units can be mixed (%, vh, px, rem etc.)
 - e.g. `calc(100% - 180px)` to make an element flexibly take up all the space next to a fixed-width element
 
 Can be useful in conjunction with SASS variables to express intent:
@@ -52,15 +54,13 @@ The element size calculated by the browser only takes into account content, padd
 
 ## Task!
 💪 **Finetune the layout of the high-level elements**
-> 💡 Use SASS variables to express intent and avoid repeating selectors uneccesarily.
+> 💡 BONUS: Use SASS variables to express intent and avoid repeating selectors uneccesarily.
 
 1. Let's give the `search-bar` and `search-result-card` sensible padding and a border radius.
 
-1. Make the user image appear round (hint: use `border-radius`), and give it some right margin.
+1. Make the user image appear round (hint: use `border-radius`), limit its size to 150px and give it some right margin.
 
 1. Set the `#root` width as a `%` or `vw` value so its somewhat responsive. Set a `max-width` that it shouldn't cross beyond on large screens.
-
-1. Give the `.user-image` an absolute width of 100px, and make `.user-details` take up the remaining space in the container. (Hint: you may want to create a variable for the width value, and use the calc() function too.)
 
 **[>> Check solution](/lessons/3-css-box-model__solution.md)**
 

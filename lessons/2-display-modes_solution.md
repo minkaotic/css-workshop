@@ -4,7 +4,7 @@ Your CSS should look something like this:
 
 ```css
 body {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Space Mono', monospace, sans-serif;
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
